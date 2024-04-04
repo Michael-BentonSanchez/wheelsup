@@ -4,7 +4,8 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
-import { AngularFireAuthGuard } from '@angular/fire/compat/auth-guard'
+import { AboutComponent } from './components/about/about.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 const routes: Routes = [
   // {path: '', redirectTo: '/login', pathMatch: 'full'},
@@ -33,6 +34,14 @@ const routes: Routes = [
       {
         path: 'home',
         component: HomeComponent,
+      },
+      {
+        path: 'about',
+        component: AboutComponent
+      },
+      {
+        path: 'profile',
+        component: ProfileComponent
       },
       {
         path: '',
