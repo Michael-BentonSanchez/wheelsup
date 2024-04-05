@@ -18,7 +18,7 @@ export class LoginComponent {
   async login() {
     const loggedIn = await this.authService.login(this.signInData);
     if (loggedIn) {
-      this.router.navigate(['home']);
+      this.router.navigate(['/s']); // if the succesful login, navigate to home
     } else {
       this.errorMessage = 'Invalid email or password!';
     }
