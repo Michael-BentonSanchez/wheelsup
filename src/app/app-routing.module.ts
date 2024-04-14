@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { VehiclesComponent } from './components/vehicles/vehicles.component';
 
 const routes: Routes = [
   // {path: '', redirectTo: '/login', pathMatch: 'full'},
@@ -42,6 +43,10 @@ const routes: Routes = [
       {
         path: 'profile',
         component: ProfileComponent
+      },
+      {
+        path: 'vehicles',
+        component: VehiclesComponent
       },
       {
         path: '',

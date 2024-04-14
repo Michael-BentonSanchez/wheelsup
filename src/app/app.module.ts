@@ -13,6 +13,7 @@ import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { VehiclesComponent } from './components/vehicles/vehicles.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ProfileComponent } from './components/profile/profile.component';
     HomeLayoutComponent,
     LoginLayoutComponent,
     AboutComponent,
-    ProfileComponent
+    ProfileComponent,
+    VehiclesComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
